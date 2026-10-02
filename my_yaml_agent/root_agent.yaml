@@ -1,0 +1,8 @@
+name: prime_agent
+model: gemini-3.5-flash
+agent_class: LlmAgent
+description: A helpful assistant for user questions.
+instruction: Answer user questions to the best of your knowledge
+sub_agents: []
+tools:
+  - name: my_yaml_agent.check_prime
